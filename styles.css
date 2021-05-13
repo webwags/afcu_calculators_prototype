@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+table {
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+}
+.theading {
+  background-color: #ebebeb;
+  margin: 0 0 7px;
+}
+td, th {
+  padding: 7px;
+}
+td {
+  padding: 15px 7px 0px;
+}
+#loanCalculator {
+  margin: 20px auto;
+  padding: 0;
+  border: 1px solid #000;
+  width: 400px;
+}
+#loanInfo {
+  margin: 0;
+  padding: 10px;
+}
+h2, h3, h4 {
+  text-align: center;
+}
+.alert {
+  color: red;
+  font-size: 12px;
+}
+.first-12 {
+  text-align: center;
+}
+.potential-rate {
+  font-size: 11px;
+  text-align: center;
+}
+.legalize {
+  font-size: 10px;
+  text-align: center;
+  padding: 15px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+	list-style-type: none;
+	margin: 0 0 20px;
+	padding: 0;
+
+}
+li {
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
+}
+span {
+  color: gray;
+}
+.calculator-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.calculator-50 {
+  width: 46%;
+  padding: 0 1%;
+  margin: 0 1%;
+}
+.calculator-55 {
+  border: 0px solid #000;
+  width: 51%;
+  padding: 0 1%;
+  margin: 0 1%;
+}
+.calculator-45 {
+  border: 0px solid #000;
+  width: 41%;
+  padding: 0 1%;
+  margin: 0 1%;
+}
+.calculator-100 {
+  width: 96%;
+  padding: 0 1%;
+  margin: 10px 1% 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
